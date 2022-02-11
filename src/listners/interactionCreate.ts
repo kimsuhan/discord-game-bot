@@ -20,4 +20,4 @@ const handleSlashCommand = async (client: Client, interaction: BaseCommandIntera
 
     slashCommand.run(client, interaction);
 }
-// https://discord.com/api/oauth2/authorize?client_id=940448979555065967&permissions=0&scope=bot%20applications.commands
+// https://discord.com/api/oauth2/authorize?client_id=940448979555065967&permissions=8&scope=bot%20applications.commands

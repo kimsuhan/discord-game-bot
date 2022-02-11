@@ -13,6 +13,7 @@ export default async (html: string) : Promise<any> => {
 
     const classIconImage: string[] = $1(classIconKeywords)
         .map((i, ele): string => {
+                console.log($1(ele).find('.profile-character-info__img').get(0).attribs.alt);
                 return $1(ele).find('.profile-character-info__img').get(0).attribs.src;
             },
         ).get();

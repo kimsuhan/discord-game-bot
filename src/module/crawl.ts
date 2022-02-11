@@ -1,4 +1,4 @@
-import request, {CoreOptions} from 'request';
+import request, { CoreOptions } from 'request';
 
 export default async (url : string) : Promise<string> => {
     const encodeUrl = encodeURI(url);
